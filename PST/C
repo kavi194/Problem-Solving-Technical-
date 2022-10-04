@@ -1,8 +1,6 @@
 Q(1) Hima and Anni have 30 oranges together, but hima has 10  oranges more than Anni. How many oranges does each of the girls have?
 Jessy said without thinking: Hima has 20 oranges and Anni 10 oranges. The Mom tried to check if Jessy answer wasn't accidental and repeated the riddle every time increasing the numbers. Every time Jessy answered correctly. The surprised Mom wanted to continue questioning Jessy, but with big numbers she could't solve the problem. Help the Mom .
-
 Write a program which reads from standard input the number of oranges the girls have together and how many more oranges Hima has,counts the number of oranges belonging to Hima and the number of oranges belonging to Anni,
-
 Example:
 Input:
 30
@@ -26,9 +24,8 @@ int main()
     printf("jessy has:%d",jessy);
     return 0;
 }
-
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q(2) Design a login screen with username and password, where username and password will be authenticated with given hard coded username and password. While entering password, password character will display even backspace and delete will work
-
 Sample out:
 Enter User Name: user001
 Enter Password:******
@@ -57,15 +54,15 @@ int main()
     }
     return 0;
 }
-
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q(3) Jack and Jill are playing a string game. Jack has given Jill two strings A and B. Jill has to derive a string C from A, by deleting elements from string A, such that string C does not contain any element of string B. Jill needs help to do this task. She wants a program to do this as she is lazy. Given strings A and B as input, give string C as Output.
 Example 1:
-•	Input:
+Input:
 tiger     -> input string A
 ti          -> input string B
-•	Output:
+Output:
 ger       -> Output string C
-•	Explanation:
+Explanation:
 After removing “t” and “i” from “tiger”, we are left with “ger”.
 So, the answer is “ger”.
 
@@ -95,11 +92,11 @@ void main()
     }
     return 0;
 }
-
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Q(4) The function accepts two integers n, m as arguments Find the sum of all numbers in range from 1 to m(both inclusive) that are not divisible by n. Return difference between sum of integers not divisible by n with sum of numbers divisible by n.
 Assumption:
-•	n>0 and m>0
-•	Sum lies between integral range
+n>0 and m>0
+Sum lies between integral range
 Example
 Input
 n:4
@@ -108,10 +105,9 @@ Output
 90
 
 Explanation
-•	Sum of numbers divisible by 4 are 4 + 8 + 12 + 16 + 20 = 60
-•	Sum of numbers not divisible by 4 are 1 +2 + 3 + 5 + 6 + 7 + 9 + 10 + 11 + 13 + 14 + 15 + 17 + 18 + 19 = 150
-•	Difference 150 – 60 = 90
-
+Sum of numbers divisible by 4 are 4 + 8 + 12 + 16 + 20 = 60
+Sum of numbers not divisible by 4 are 1 +2 + 3 + 5 + 6 + 7 + 9 + 10 + 11 + 13 + 14 + 15 + 17 + 18 + 19 = 150
+Difference 150 – 60 = 90
 Sample Input
 n:3
 m:10
@@ -146,6 +142,25 @@ int main()
     printf("%d",result);
     return 0;
 }
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q(5) 2. Replace every array element with the least greater element on its right
+Given an array of distinct integers, replace every element with the least greater element on its right or with -1 if there are no greater elements.
+For example,
+Input:  { 10, 100, 93, 32, 35, 65, 80, 90, 94, 6 }
+ 
+Output: { 32, -1, 94, 35, 65, 80, 90, 94, -1, -1 }
 
+code:
 
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q(6) Write a program in C such that it takes a lower limit and upper limit as inputs and print all the intermediate palindrome numbers.
+Test Cases:
+TestCase 1:
+Input :
+10 , 80
+Expected Result:
+11 , 22 , 33 , 44 , 55 , 66 , 77.
 
+code:
+
+------------------------------------------------------------------------------------*****-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
